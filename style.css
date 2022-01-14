@@ -1,0 +1,29 @@
+body{
+    /* --------------------------
+        screen background color
+    -------------------------- */
+    background-color: rgb(255, 255, 255);
+    /* ---------------
+           font
+    ------------------ */
+    font-family: 'Poppins', sans-serif;
+    color: rgb(67, 62, 62);
+
+}
+header{
+    font-size: 17px;
+}
+body main h1{
+    font-size: 52px;
+    font-weight: 72px;
+}
+.upper-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.camera{
+    width: 440px;
+    height: 414px;
+}
