@@ -17,13 +17,50 @@ body main h1{
     font-size: 52px;
     font-weight: 72px;
 }
-.upper-section{
+/* ---------------
+   first section
+----------------- */
+.first-section{
     display: flex;
     align-items: center;
     justify-content: center;
+    column-gap: 100px;
     
 }
 .camera{
     width: 440px;
     height: 414px;
+}
+/* ----------------
+ second section
+---------------- */
+.container{
+    
+}
+#second-section-title{
+    text-align: center;
+}
+.articles{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+}
+/* -----------------
+     third section
+------------------- */
+
+
+
+/* -----------------
+     fourth section
+------------------- */
+.fourth-section{
+    background-color: rgb(18, 18, 49);
+    height: 200px;
+    padding: 0%;
+}
+.copyright{
+    text-align: center;
+    padding-top: 30px;
 }
