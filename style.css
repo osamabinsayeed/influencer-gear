@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     /* --------------------------
         screen background color
     -------------------------- */
@@ -13,11 +14,13 @@ body{
 }
 header{
     font-size: 17px;
+    margin-left: 147px;
 }
 body main h1{
     font-size: 52px;
     font-weight: 72px;
 }
+
 /* ---------------
    first section
 ----------------- */
@@ -45,7 +48,7 @@ body main h1{
     color: white;
 }
 .camera{
-    width: 440px;
+    width: 400px;
     height: 414px;
 }
 .lines{
@@ -90,8 +93,8 @@ body main h1{
 .article{
     border-radius: 10px;
     box-shadow: lightgray 5px;
-    width: 329px;
-    height: 500px;
+    width: 300px;
+    height: 470px;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -99,29 +102,63 @@ body main h1{
 
     
 }
+.images{
+    margin-bottom: 0%;
+}
 .product{
     color: black;
 }
+.star{
+    color: rgb(243, 103, 27);
+    width: 122px;
+    height: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.fas .fa-star{
+    width: 11.07px;
+    height: 10.32px
+}
 .price{
     margin-top: 0;
+    margin-bottom: 0%;
     font-size: 30px;
+}
+#see-more{
+    text-decoration: none;
+    color: #E02C6D;
+    display: flex;
+    justify-content: right;
+    margin-right: 105px;
 }
 
 /* -----------------
      third section
 ------------------- */
-
+.third-section{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    column-gap: 50px;
+}
+.register{
+    color: white;
+}
 
 
 /* -----------------
      fourth section
 ------------------- */
 .fourth-section{
+    color: white;
+}
+.fourth-section{
     background-color: rgb(18, 18, 49);
     height: 200px;
-    padding: 0%;
+    margin: 0%;
 }
 .copyright{
     text-align: center;
     padding-top: 30px;
+    margin-bottom: 50px;
 }
