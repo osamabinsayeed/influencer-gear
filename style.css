@@ -31,6 +31,10 @@ body main h1{
     column-gap: 100px;
     
 }
+.camera:hover{
+    transition: 1s ease-in-out;
+    transform: scale(1.2);
+}
 .button{
     height: 50px;
     width: 200px;
@@ -104,6 +108,10 @@ body main h1{
 }
 .images{
     margin-bottom: 0%;
+    transition: 1s ease-in-out;
+}
+.images:hover{
+    transform: scale(1.2);
 }
 .product{
     color: black;
@@ -162,3 +170,68 @@ body main h1{
     padding-top: 30px;
     margin-bottom: 50px;
 }
+/* ------------------
+   media quaries
+--------------------- */
+/* -----------------
+    mobile devices
+--------------------- */
+@media only screen and (max-width:688px){
+    body{
+    margin:0;
+    width: 100%;
+    
+    }
+    header{
+        display: flex;
+        justify-content: center;
+
+    } 
+    main{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    }
+
+    .first-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        width: 100%;
+
+    } 
+    .camera{
+       
+    } 
+    .button{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    } 
+    .articles{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width : 100%;
+        justify-content: center;
+        flex-direction: column;
+      
+    }
+    .third-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
+    }
+    .fourth-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+
+
+
+    
