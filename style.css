@@ -188,7 +188,7 @@ body main h1{
         margin: 0;
         padding: .2em;
         overflow-x: hidden;
-        overflow-wrap: normal;
+        
     }
     main{
         width: 100%;
@@ -196,6 +196,7 @@ body main h1{
         flex-direction: column;
         justify-content: center;
         overflow-x: hidden;
+        margin: 0;
         
     }
     
@@ -210,6 +211,7 @@ body main h1{
     .first-section{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        justify-content: center;
         width: 100%;
         overflow-x: hidden;
     }
@@ -239,6 +241,11 @@ body main h1{
     .articles{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+    #see-more{
+        justify-content: right;
+        margin-right: 0;
     }
     .third-section{
         display: flex;
@@ -247,14 +254,17 @@ body main h1{
         max-width: 100%;
         margin: 0;
         overflow-x: hidden;
-    }
-    .third-section img{
         
     }
-    .fourth-section{
-        
+    
+    .product{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        justify-items: center;
+        margin-bottom: 50px;  
     }
-
+    
     
 
 }
